@@ -1259,7 +1259,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .project .desc .con .icon {
   position: absolute;
-  bottom: 20px;
+  top: 100px;
   left: 20px;
   right: 20px;
 }
@@ -1275,6 +1275,10 @@ body.offcanvas .colorlib-nav-toggle {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+}
+.project .desc .con .icon span a:hover,
+.project .desc .con .icon span a:active {
+  background-color: #ffffff;
 }
 .project .desc .con .icon i {
   font-size: 16px;
