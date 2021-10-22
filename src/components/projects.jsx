@@ -26,7 +26,11 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
+									
+									<p className="titles">React, React Hooks, Context API</p>
 								</div>
+
+								
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
 								<div className="project" style={{ backgroundImage: 'url(images/prj2.jpg)' }}>
@@ -41,6 +45,7 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
+									<p className="titles">React, React Hooks, Context API</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
@@ -56,6 +61,7 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
+									<p className="titles">React, React Hooks, Context API</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
@@ -71,6 +77,7 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
+									<p className="titles">React, React Hooks, Context API</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
@@ -86,6 +93,7 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
+									<p className="titles">React, React Hooks, Context API</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
@@ -101,6 +109,55 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
+									<p className="titles">React, React Hooks, Context API</p>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+								<div className="project" style={{ backgroundImage: 'url(images/prj6.jpg)' }}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">Work 06</a></h3>
+											<span>Web Design</span>
+											<p className="icon">
+												<span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+											</p>
+										</div>
+									</div>
+									<p className="titles">React, React Hooks, Context API</p>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+								<div className="project" style={{ backgroundImage: 'url(images/prj6.jpg)' }}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">Work 06</a></h3>
+											<span>Web Design</span>
+											<p className="icon">
+												<span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+											</p>
+										</div>
+									</div>
+									<p className="titles">React, React Hooks, Context API</p>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+								<div className="project" style={{ backgroundImage: 'url(images/prj6.jpg)' }}>
+									<div className="desc">
+										<div className="con">
+											<h3><a href="work.html">Work 06</a></h3>
+											<span>Web Design</span>
+											<p className="icon">
+												<span><a href="#"><i className="icon-share3" /></a></span>
+												<span><a href="#"><i className="icon-eye" /> 100</a></span>
+												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+											</p>
+										</div>
+									</div>
+									<p className="titles">React, React Hooks, Context API</p>
 								</div>
 							</div>
 						</div>
