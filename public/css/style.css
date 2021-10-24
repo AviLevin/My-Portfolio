@@ -1279,6 +1279,11 @@ body.offcanvas .colorlib-nav-toggle {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 4px;
+  font-size:larger;
+  font-weight:600;
+  border-style: double;
+  border-color: white ;
+  
 }
 .project .desc .con .icon span a:hover,
 .project .desc .con .icon span a:active {
@@ -1306,6 +1311,8 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .project .desc h3 a {
   color: #fff;
+  
+
 }
 .project .desc span {
   display: block;
@@ -1900,4 +1907,30 @@ max-height:100%; */
   text-align: center;
   /* color:red; */
   font-weight: 700;
+}
+
+
+.tags{
+
+  display: flex;
+}
+.tags  img{
+
+  width:55px;
+  height:55px;
+  margin:0px auto auto 6%;
+  animation: meals-appear 0.6s ease-out forwards;
+}
+
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(9rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

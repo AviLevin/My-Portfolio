@@ -18,19 +18,19 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Work 01</a></h3>
-											
+
 											<p className="icon">
 												<span><a href="https://github.com/AviLevin/people-finder-engine"><i className="" />source code</a></span>
 												<span><a href="https://people-finder-engine.web.app/"><i className="" />LIVE project</a></span>
-												
+
 											</p>
 										</div>
 									</div>
-									
+
 									<p className="titles">React, React Hooks, Context API</p>
 								</div>
 
-								
+
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
 								<div className="project" style={{ backgroundImage: 'url(images/prj2.jpg)' }}>
@@ -39,9 +39,9 @@ export default class Projects extends Component {
 											<h3><a href="work.html">Work 02</a></h3>
 											<span>Animation</span>
 											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
+												<span><a href="https://github.com/AviLevin/MovieApp---OMDB-API"><i className="" />source code</a></span>
+												<span><a href="https://avilevinimdbmovie1.netlify.app/"><i className="" />LIVE project</a></span>
+
 											</p>
 										</div>
 									</div>
@@ -113,7 +113,7 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{ backgroundImage: 'url(images/prj7.jpg)' }}>
+								<div className="project" style={{ backgroundImage: 'url(images/prj10.jpg)' }}>
 									<div className="desc">
 										<div className="con">
 											<h3><a href="work.html">Work 06</a></h3>

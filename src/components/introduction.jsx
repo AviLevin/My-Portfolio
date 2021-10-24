@@ -31,10 +31,11 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>I love building<br /> THINGS !!</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://github.com/AviLevin"
+                          <p id="navbar" ><a className="btn btn-primary btn-learn" href="#projects" data-nav-section="projects"
                             target="_blank" rel="noopener noreferrer">View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
+          
                     </div>
                   </div>
                 </div>

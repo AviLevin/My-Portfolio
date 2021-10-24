@@ -5,6 +5,7 @@ import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
 import Projects from './components/projects';
+import Tags from './components/tags';
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
 					<Introduction></Introduction>
           <Projects></Projects>
 					<About></About>
+          <Tags></Tags>
           
 					<Timeline></Timeline>
           	</div>
