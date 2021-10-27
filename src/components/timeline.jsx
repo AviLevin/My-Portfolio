@@ -15,6 +15,18 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Full Stack Web Developement<span>2021</span></h2>
+                        <p> Udemy. React - The Complete Guide (incl Hooks, React Router, Redux)</p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
@@ -26,6 +38,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+                 
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">

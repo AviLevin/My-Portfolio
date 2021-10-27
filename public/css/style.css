@@ -105,12 +105,14 @@ figure figcaption {
   float: left;
   width: 300px;
   position: fixed;
-  overflow: scroll;
+  /* overflow: scroll; */
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  /* box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45); */
+  box-shadow: inset 0 3px 6px rgb(0 0 0 / 12%), 0 4px 6px rgb(0 0 0 / 49%);
 }
 @media screen and (max-width: 768px) {
   #colorlib-aside {
@@ -194,6 +196,8 @@ figure figcaption {
   color: #000;
   padding-right: 0.3em;
 }
+
+
 #colorlib-aside #colorlib-main-menu {
   display: block;
   width: 100%;
@@ -419,6 +423,7 @@ figure figcaption {
   line-height: 1.3;
   font-weight: 700;
   color: #1877f2;
+  text-shadow: 0.5px 0px white;
 }
 @media screen and (max-width: 768px) {
   #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
@@ -1933,4 +1938,37 @@ max-height:100%; */
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.sidebar{
+  font-size:larger;
+  font-weight:600;
+  /* padding: 3%; */
+}
+
+/* .whatsapp{
+
+  color:#1877f2;
+width: 300px;
+height: 300px;
+background-color:#25d366;
+} */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }

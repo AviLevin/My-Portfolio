@@ -45,7 +45,7 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
-									<p className="titles">React, React Hooks, Context API</p>
+									<p className="titles">React, React Hooks, React router, advanced CSS</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
@@ -61,7 +61,7 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
-									<p className="titles">React, React Hooks, Context API</p>
+									<p className="titles">React, React Hooks, Express, mongo DB</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
@@ -138,10 +138,10 @@ export default class Projects extends Component {
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
+											</p> 
 										</div>
 									</div>
-									<p className="titles">React, React Hooks, Context API</p>
+									<p className="titles"> React, Hooks, Redux, Express, MySQL, socket.io</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">

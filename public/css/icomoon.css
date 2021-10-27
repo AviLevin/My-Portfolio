@@ -14,16 +14,25 @@
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
-  font-size: large;
+  font-size: x-large;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  color: cornflowerblue;
+  transition: transform 0.5s ease;
+
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+[class^="icon-"], [class*=" icon-"]:hover ul {
+  /* font-size: x-large; */
+  transform: scale(1.5);
+}
+
 
 .icon-times:before {
   content: "\e930";
@@ -295,9 +304,61 @@
 .icon-pi:before {
   content: "\e989";
 }
+
+
 .icon-phone:before {
   content: "\e98a";
+  -webkit-animation-name: color-transition;
+	animation-name: color-transition;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	/*default value for timing-function is ease, we'll specify linear to keep the same timing through out*/
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
 }
+
+@-webkit-keyframes color-transition {
+  0% {
+    color: #4C6085;
+  }
+  33% {
+    color: #80D39B;
+  }
+  66% {
+    color: #BE3E82;
+  }
+  100% {
+    color: #4C6085;
+  }
+}
+
+@keyframes color-transition {
+  0% {
+    color: #4C6085;
+  }
+  33% {
+    color: #80D39B;
+  }
+  66% {
+    color: #BE3E82;
+  }
+  100% {
+    color: #4C6085;
+  }
+}
+
+
+
+.icon-phone:hover {
+  content: "\e98a";
+  font-size: 35px;
+}
+
+
 .icon-microphone2:before {
   content: "\e98b";
 }
@@ -459,6 +520,10 @@
 }
 .icon-mail:before {
   content: "\e9c2";
+}
+.icon-mail:hover {
+  content: "\e9c2";
+  font-size: 35px;
 }
 .icon-heart-outline:before {
   content: "\e9c3";
@@ -1528,6 +1593,11 @@
 .icon-whatsapp:before {
   content: "\eac3";
 }
+.icon-whatsapp:hover {
+  content: "\eac3";
+  font-size: 35px;
+}
+
 .icon-spotify:before {
   content: "\eac4";
 }
@@ -1615,6 +1685,10 @@
 .icon-github:before {
   content: "\eae0";
 }
+.icon-github:hover {
+  content: "\eae0";
+  font-size: 35px;
+}
 .icon-npm:before {
   content: "\eae1";
 }
@@ -1690,6 +1764,12 @@
 .icon-linkedin2:before {
   content: "\eaf9";
 }
+.icon-linkedin2:hover {
+  content: "\eaf9";
+  font-size: 35px;
+}
+
+
 .icon-linkedin22:before {
   content: "\eafa";
 }

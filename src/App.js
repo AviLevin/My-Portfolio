@@ -6,6 +6,7 @@ import About from "./components/about";
 import Timeline from "./components/timeline";
 import Projects from "./components/projects";
 import Tags from "./components/tags";
+import WhatsApp from "./components/whatsappBotton";
 
 class App extends Component {
   render() {
@@ -13,8 +14,11 @@ class App extends Component {
       <div id="colorlib-page">
         <div id="container-wrap">
           <Sidebar></Sidebar>
+
           <div id="colorlib-main">
+            <WhatsApp></WhatsApp>
             <Introduction></Introduction>
+            
             <Projects></Projects>
             <About></About>
             <Tags></Tags>

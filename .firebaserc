@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "portfolio-ef6c8"
-  }
+    "default": "portfolio-ef6c8",
+    "build": "portfolio-ef6c8"
+  },
+  "targets": {}
 }
