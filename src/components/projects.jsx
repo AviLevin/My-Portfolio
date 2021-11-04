@@ -27,7 +27,7 @@ export default class Projects extends Component {
 										</div>
 									</div>
 
-									<p className="titles">React, React Hooks, Context API</p>
+									<p className="titles">React, React Hooks, Context API, Firebase</p>
 								</div>
 
 
@@ -45,7 +45,7 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
-									<p className="titles">React, React Hooks, React router, advanced CSS</p>
+									<p className="titles">React, React Hooks, Netlify, advanced CSS</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
@@ -125,7 +125,7 @@ export default class Projects extends Component {
 											</p>
 										</div>
 									</div>
-									<p className="titles">React, React Hooks, Context API</p>
+									<p className="titles">React, React Hooks, Context API, Firebase</p>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
